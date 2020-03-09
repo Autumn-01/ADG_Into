@@ -1,0 +1,20 @@
+<h1>
+    User Info
+</h1>
+
+<table>
+    <tr>
+        <th>ID:</th>
+        <th>Name:</th>
+        <th>Email:</th>
+        <th>Phone Number:</th>
+    </tr>
+    {{#each data}}
+     <tr>
+        <td>{{this.userid}}</td>
+        <td>{{this.Name}}</td>
+        <td>{{this.Email}}</td>
+        <td>{{this.Phonenumber}}</td>
+     </tr>
+    {{/each}}
+</table>
